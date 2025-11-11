@@ -1,3 +1,3 @@
 # Aether Defense Group, LLC
 
-Professional website hosted via GitHub Pages.
+Professional Website hosted via ADG Pages.
