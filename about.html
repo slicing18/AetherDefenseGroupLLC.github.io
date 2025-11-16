@@ -30,12 +30,17 @@
     </nav>
   </header>
 
-  <!-- ⭐ FULL-WIDTH BANNER IMAGE -->
-  <section 
-    class="w-full h-72 md:h-96 bg-cover bg-top"
-    style="background-image: url('about-banner.png');">
-  </section>
-
+  <!-- ⭐ IMPROVED FULL-WIDTH BANNER -->
+<section 
+  class="w-full h-80 md:h-[420px] bg-cover bg-no-repeat"
+  style="
+    background-image: url('about-banner.png');
+    background-position: top center;      /* SHOW MORE OF UPPER PORTION */
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;         /* SHARPER RENDER */
+    image-rendering: high-quality;
+">
+</section>
   <section class="py-16 px-8 max-w-4xl mx-auto">
     <h2 class="text-3xl font-bold mb-6 text-blue-900">About Us</h2>
     <p class="mb-6">
